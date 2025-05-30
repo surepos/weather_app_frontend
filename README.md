@@ -42,13 +42,13 @@ Backend: Render Cloud
 ```
 3. Install Dependencies
 ```bash
-npm install
-   or
+  npm install
+    or
   yarn install
 ```
 5. Environment Variables
 ```bash
-Create a .env file and add the following:
+  Create a .env file and add the following:
   NEXT_PUBLIC_GOOGLE_API=your google api
   OPENWEATHER_API_KEY=your openweather api
 ```
