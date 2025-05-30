@@ -31,7 +31,7 @@ function CitiesDisplay({
   };
 
   return (
-    <div className="mt-10 overflow-x-auto hide-scrollbar pt-6 pb-2 self-start">
+    <div className="mt-10 pt-6 pb-2 self-start w-full overflow-x-auto hide-scrollbar">
       <div className="flex gap-8 w-max">
         <motion.div
           initial={{ opacity: 0, y: 10, scale: 0.8 }}
