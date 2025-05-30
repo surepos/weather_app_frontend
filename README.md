@@ -1,7 +1,7 @@
-##🌤️ Weather App with PM Accelerator Profile
+## 🌤️ Weather App with PM Accelerator Profile
 A sleek and interactive weather forecasting web app built using Next.js, Tailwind CSS, and Framer Motion. This app allows users to search for cities and view real-time weather forecasts in a beautifully animated interface.
 
-#✨ Features
+# ✨ Features
 🔍 Search & Add Cities using Google Places API
 
 🌡️ View Hourly and Daily Forecasts with real-time data
@@ -18,7 +18,7 @@ A sleek and interactive weather forecasting web app built using Next.js, Tailwin
 
 ☁️ Frontend hosted on Vercel, backend API hosted on a Render cloud server 
 
-🛠️ Tech Stack
+🛠️ #Tech Stack
 Frontend: Next.js, JavaScript, TypeScript, Tailwind CSS, Framer Motion
 
 Backend: Node.js, Express, Mongoose, MongoDB
