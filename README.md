@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+##🌤️ Weather App with PM Accelerator Profile
+A sleek and interactive weather forecasting web app built using Next.js, Tailwind CSS, and Framer Motion. This app allows users to search for cities and view real-time weather forecasts in a beautifully animated interface.
 
-## Getting Started
+#✨ Features
+🔍 Search & Add Cities using Google Places API
 
-First, run the development server:
+🌡️ View Hourly and Daily Forecasts with real-time data
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📥 Download Weather Data for offline reference
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🗃️ CRUD Support using MongoDB to store and manage city data
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🎞️ Animated UI with smooth horizontal transitions using Framer Motion
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📱 Fully Responsive layout across devices
 
-## Learn More
+🧑‍💼 Profile Panel introducing the developer and PM Accelerator platform
 
-To learn more about Next.js, take a look at the following resources:
+☁️ Frontend hosted on Vercel, backend API hosted on a Render cloud server 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🛠️ Tech Stack
+Frontend: Next.js, JavaScript, TypeScript, Tailwind CSS, Framer Motion
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Backend: Node.js, Express, Mongoose, MongoDB
 
-## Deploy on Vercel
+APIs: OpenWeatherMap, Google Places API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deployment:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Frontend: Vercel
+
+Backend: Render Cloud 
+
+
+
+## 🚀 Getting Started
+
+1. Clone the Repo
+   git clone https://github.com/surepos/weather_app_frontend.git
+   cd weather_app_frontend
+2. Install Dependencies
+  npm install
+  # or
+  yarn install
+3. Environment Variables
+  Create a .env file and add the following:
+  NEXT_PUBLIC_GOOGLE_API=your google api
+  OPENWEATHER_API_KEY=your openweather api
+4. Run the App
+  npm run dev
+  # or
+  yarn dev
+  Visit http://localhost:3000 in your browser.
+
+## 🚀 Vercel
+Visit: https://weather-app-frontend-two-self.vercel.app/
+
