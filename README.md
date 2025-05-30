@@ -40,7 +40,7 @@ Backend: Render Cloud
    cd weather_app_frontend
 2. Install Dependencies
   npm install
-  # or
+   or
   yarn install
 3. Environment Variables
   Create a .env file and add the following:
@@ -48,7 +48,7 @@ Backend: Render Cloud
   OPENWEATHER_API_KEY=your openweather api
 4. Run the App
   npm run dev
-  # or
+   or
   yarn dev
   Visit http://localhost:3000 in your browser.
 
