@@ -36,20 +36,28 @@ Backend: Render Cloud
 ## 🚀 Getting Started
 
 1. Clone the Repo
+```bash
    git clone https://github.com/surepos/weather_app_frontend.git
    cd weather_app_frontend
-2. Install Dependencies
-  npm install
+```
+3. Install Dependencies
+```bash
+npm install
    or
   yarn install
-3. Environment Variables
-  Create a .env file and add the following:
+```
+5. Environment Variables
+```bash
+Create a .env file and add the following:
   NEXT_PUBLIC_GOOGLE_API=your google api
   OPENWEATHER_API_KEY=your openweather api
-4. Run the App
+```
+7. Run the App
+ ```bash
   npm run dev
    or
   yarn dev
+```
   Visit http://localhost:3000 in your browser.
 
 ## 🚀 Vercel
