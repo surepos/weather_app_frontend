@@ -21,7 +21,7 @@ A sleek and interactive weather forecasting web app built using Next.js, Tailwin
 # 🛠️ Tech Stack
 Frontend: Next.js, JavaScript, TypeScript, Tailwind CSS, Framer Motion
 
-Backend: Node.js, Express, Mongoose, MongoDB
+Backend: Node.js, Express, Mongoose, MongoDB (https://github.com/surepos/weather_app_backend)
 
 APIs: OpenWeatherMap, Google Places API
 
